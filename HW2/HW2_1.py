@@ -9,7 +9,7 @@ Created on Thu Feb 28 18:40:30 2019
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-############################################# READINF DATA
+############################################# READING DATA
 data0=np.loadtxt("data.txt",skiprows=13)
 m=np.size(data0,axis=0)
 n=np.size(data0,axis=1) - 1
